@@ -1,0 +1,30 @@
+
+<html>
+    <title>\nHoras em tempo real\n</title>
+
+    <script>
+        function showTime(){
+            var time = new Date();
+            var hour = time.getHours();
+            var minute = time.getMinutes();
+            var second = time.getSeconds();
+
+            if(hour<10) hour = "0"+hour;
+            if(minute<10) minute = "0"+minte;
+            if(second<10) second = "0"+second;
+
+            var tempo = hour + ":" +minute+ ":" +second
+
+            document.getElementById("timer").innerHTML=tempo;
+        }
+
+        function initTime(){
+            setInterval(showTime,1000)
+        }
+    </script>
+
+    <body onload="initTime();">
+        <span id="timer">Horas/span>
+        //info: https://www.youtube.com/watch?v=e5u0mfyirM4
+    </body>
+</html>
