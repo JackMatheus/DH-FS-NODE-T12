@@ -1,0 +1,1 @@
+console.log("Hello word, mãe to na DH lecionando para a galera")
