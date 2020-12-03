@@ -1,0 +1,97 @@
+ /* HEADER */
+header{
+    background-color:rgb(29, 25, 25);
+    margin-top: 5px;
+    height: 150px;
+    top: -10px;
+    position: relative;
+    font: bold;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+        
+}
+  
+  header nav img {
+    position: relative;
+  }
+  
+  header nav ul {
+    margin-left: 10px;
+    display: flex; 
+  }
+ 
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+/*BODY */
+body{
+    background-color:rgb(19, 18, 18);
+    align-items: center;
+}
+
+
+form{
+    color: blue;
+    margin:30px;
+    font: bold;
+    display: inline;
+   
+}
+
+nav{
+    margin: 50px;
+    align-items: center;
+}
+
+
+/* cabecalho mad */
+.navbar-brand {
+    margin: 70px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+       
+}
+
+/* carrocel*/
+.carousel-item{
+    margin-left:85px;
+    align-items: center;
+}
+
+.col-md-6{
+    top: -70px;
+    position: relative;
+}
+
+.txt{
+    color: white;
+    font: arial ;
+    margin: 15px;
+
+}
+.col-md-6{
+    margin-left: 150px;
+}
+
+.form-group{
+    margin: 15px;
+}
+
+/* FOOTER */
+.col-sm-2 {
+font-weight: bold;
+font-size: 15px;
+}
+
+.btn{
+    margin-left: 600px;
+}
